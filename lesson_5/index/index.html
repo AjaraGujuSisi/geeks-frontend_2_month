@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="traffic-light">
+        <div class="light-container">
+            <div id="red" class="light" onclick="changeLight('red')"></div>
+        </div>
+        <div class="light-container">
+            <div id="yellow" class="light" onclick="changeLight('yellow')"></div>
+        </div>
+        <div class="light-container">
+            <div id="green" class="light" onclick="changeLight('green')"></div>
+        </div>
+    </div>
+    <div class="status-container">
+        <div class="status">
+            <p id="status-text">Click a light</p>
+        </div>
+    </div>
+</div>
+<script src="../app/app.js"></script>
+</body>
+</html>
